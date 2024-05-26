@@ -48,9 +48,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-# Add the redirects configuration directly to the end of the workflow file
-redirects:
-  - from: /
-    to: /youtubePage/
-    status: 301
